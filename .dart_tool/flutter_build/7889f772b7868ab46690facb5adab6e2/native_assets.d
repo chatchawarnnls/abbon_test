@@ -1,0 +1,1 @@
+ /Users/chatchawarnsealee/Desktop/work/abbon_test/.dart_tool/flutter_build/7889f772b7868ab46690facb5adab6e2/native_assets.yaml: 

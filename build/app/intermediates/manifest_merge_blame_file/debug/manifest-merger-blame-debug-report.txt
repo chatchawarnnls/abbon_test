@@ -1,0 +1,360 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.abbon_test_mobile"
+4    android:versionCode="1"
+5    android:versionName="1.0.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="21"
+9        android:targetSdkVersion="35" />
+10    <!--
+11         The INTERNET permission is required for development. Specifically,
+12         the Flutter tool needs it to communicate with the running application
+13         to allow setting breakpoints, to provide hot reload, etc.
+14    -->
+15    <uses-permission android:name="android.permission.INTERNET" />
+15-->/Users/chatchawarnsealee/Desktop/work/abbon_test/android/app/src/main/AndroidManifest.xml:57:5-58:53
+15-->/Users/chatchawarnsealee/Desktop/work/abbon_test/android/app/src/main/AndroidManifest.xml:58:9-51
+16    <!--
+17     Required to query activities that can process text, see:
+18         https://developer.android.com/training/package-visibility and
+19         https://developer.android.com/reference/android/content/Intent#ACTION_PROCESS_TEXT.
+20
+21         In particular, this is used by the Flutter engine in io.flutter.plugin.text.ProcessTextPlugin.
+22    -->
+23    <queries>
+23-->/Users/chatchawarnsealee/Desktop/work/abbon_test/android/app/src/main/AndroidManifest.xml:40:5-56:15
+24        <intent>
+24-->/Users/chatchawarnsealee/Desktop/work/abbon_test/android/app/src/main/AndroidManifest.xml:41:9-44:18
+25            <action android:name="android.intent.action.PROCESS_TEXT" />
+25-->/Users/chatchawarnsealee/Desktop/work/abbon_test/android/app/src/main/AndroidManifest.xml:42:13-72
+25-->/Users/chatchawarnsealee/Desktop/work/abbon_test/android/app/src/main/AndroidManifest.xml:42:21-70
+26
+27            <data android:mimeType="text/plain" />
+27-->/Users/chatchawarnsealee/Desktop/work/abbon_test/android/app/src/main/AndroidManifest.xml:43:13-50
+27-->/Users/chatchawarnsealee/Desktop/work/abbon_test/android/app/src/main/AndroidManifest.xml:43:19-48
+28        </intent>
+29        <intent>
+29-->/Users/chatchawarnsealee/Desktop/work/abbon_test/android/app/src/main/AndroidManifest.xml:45:9-48:18
+30            <action android:name="android.intent.action.VIEW" />
+30-->/Users/chatchawarnsealee/Desktop/work/abbon_test/android/app/src/main/AndroidManifest.xml:46:13-65
+30-->/Users/chatchawarnsealee/Desktop/work/abbon_test/android/app/src/main/AndroidManifest.xml:46:21-62
+31
+32            <data android:scheme="sms" />
+32-->/Users/chatchawarnsealee/Desktop/work/abbon_test/android/app/src/main/AndroidManifest.xml:43:13-50
+33        </intent>
+34        <intent>
+34-->/Users/chatchawarnsealee/Desktop/work/abbon_test/android/app/src/main/AndroidManifest.xml:49:9-52:18
+35            <action android:name="android.intent.action.VIEW" />
+35-->/Users/chatchawarnsealee/Desktop/work/abbon_test/android/app/src/main/AndroidManifest.xml:46:13-65
+35-->/Users/chatchawarnsealee/Desktop/work/abbon_test/android/app/src/main/AndroidManifest.xml:46:21-62
+36
+37            <data android:scheme="tel" />
+37-->/Users/chatchawarnsealee/Desktop/work/abbon_test/android/app/src/main/AndroidManifest.xml:43:13-50
+38        </intent>
+39        <intent>
+39-->/Users/chatchawarnsealee/Desktop/work/abbon_test/android/app/src/main/AndroidManifest.xml:53:9-55:18
+40            <action android:name="android.support.customtabs.action.CustomTabsService" />
+40-->/Users/chatchawarnsealee/Desktop/work/abbon_test/android/app/src/main/AndroidManifest.xml:54:13-90
+40-->/Users/chatchawarnsealee/Desktop/work/abbon_test/android/app/src/main/AndroidManifest.xml:54:21-87
+41        </intent>
+42
+43        <package android:name="com.google.android.apps.maps" />
+43-->[:map_launcher] /Users/chatchawarnsealee/Desktop/work/abbon_test/build/map_launcher/intermediates/merged_manifest/debug/AndroidManifest.xml:8:9-64
+43-->[:map_launcher] /Users/chatchawarnsealee/Desktop/work/abbon_test/build/map_launcher/intermediates/merged_manifest/debug/AndroidManifest.xml:8:18-61
+44        <package android:name="com.google.android.apps.mapslite" />
+44-->[:map_launcher] /Users/chatchawarnsealee/Desktop/work/abbon_test/build/map_launcher/intermediates/merged_manifest/debug/AndroidManifest.xml:9:9-68
+44-->[:map_launcher] /Users/chatchawarnsealee/Desktop/work/abbon_test/build/map_launcher/intermediates/merged_manifest/debug/AndroidManifest.xml:9:18-65
+45        <package android:name="com.autonavi.minimap" />
+45-->[:map_launcher] /Users/chatchawarnsealee/Desktop/work/abbon_test/build/map_launcher/intermediates/merged_manifest/debug/AndroidManifest.xml:10:9-56
+45-->[:map_launcher] /Users/chatchawarnsealee/Desktop/work/abbon_test/build/map_launcher/intermediates/merged_manifest/debug/AndroidManifest.xml:10:18-53
+46        <package android:name="com.baidu.BaiduMap" />
+46-->[:map_launcher] /Users/chatchawarnsealee/Desktop/work/abbon_test/build/map_launcher/intermediates/merged_manifest/debug/AndroidManifest.xml:11:9-54
+46-->[:map_launcher] /Users/chatchawarnsealee/Desktop/work/abbon_test/build/map_launcher/intermediates/merged_manifest/debug/AndroidManifest.xml:11:18-51
+47        <package android:name="com.waze" />
+47-->[:map_launcher] /Users/chatchawarnsealee/Desktop/work/abbon_test/build/map_launcher/intermediates/merged_manifest/debug/AndroidManifest.xml:12:9-44
+47-->[:map_launcher] /Users/chatchawarnsealee/Desktop/work/abbon_test/build/map_launcher/intermediates/merged_manifest/debug/AndroidManifest.xml:12:18-41
+48        <package android:name="ru.yandex.yandexnavi" />
+48-->[:map_launcher] /Users/chatchawarnsealee/Desktop/work/abbon_test/build/map_launcher/intermediates/merged_manifest/debug/AndroidManifest.xml:13:9-56
+48-->[:map_launcher] /Users/chatchawarnsealee/Desktop/work/abbon_test/build/map_launcher/intermediates/merged_manifest/debug/AndroidManifest.xml:13:18-53
+49        <package android:name="ru.yandex.yandexmaps" />
+49-->[:map_launcher] /Users/chatchawarnsealee/Desktop/work/abbon_test/build/map_launcher/intermediates/merged_manifest/debug/AndroidManifest.xml:14:9-56
+49-->[:map_launcher] /Users/chatchawarnsealee/Desktop/work/abbon_test/build/map_launcher/intermediates/merged_manifest/debug/AndroidManifest.xml:14:18-53
+50        <package android:name="com.citymapper.app.release" />
+50-->[:map_launcher] /Users/chatchawarnsealee/Desktop/work/abbon_test/build/map_launcher/intermediates/merged_manifest/debug/AndroidManifest.xml:15:9-62
+50-->[:map_launcher] /Users/chatchawarnsealee/Desktop/work/abbon_test/build/map_launcher/intermediates/merged_manifest/debug/AndroidManifest.xml:15:18-59
+51        <package android:name="com.mapswithme.maps.pro" />
+51-->[:map_launcher] /Users/chatchawarnsealee/Desktop/work/abbon_test/build/map_launcher/intermediates/merged_manifest/debug/AndroidManifest.xml:16:9-59
+51-->[:map_launcher] /Users/chatchawarnsealee/Desktop/work/abbon_test/build/map_launcher/intermediates/merged_manifest/debug/AndroidManifest.xml:16:18-56
+52        <package android:name="net.osmand" />
+52-->[:map_launcher] /Users/chatchawarnsealee/Desktop/work/abbon_test/build/map_launcher/intermediates/merged_manifest/debug/AndroidManifest.xml:17:9-46
+52-->[:map_launcher] /Users/chatchawarnsealee/Desktop/work/abbon_test/build/map_launcher/intermediates/merged_manifest/debug/AndroidManifest.xml:17:18-43
+53        <package android:name="net.osmand.plus" />
+53-->[:map_launcher] /Users/chatchawarnsealee/Desktop/work/abbon_test/build/map_launcher/intermediates/merged_manifest/debug/AndroidManifest.xml:18:9-51
+53-->[:map_launcher] /Users/chatchawarnsealee/Desktop/work/abbon_test/build/map_launcher/intermediates/merged_manifest/debug/AndroidManifest.xml:18:18-48
+54        <package android:name="ru.dublgis.dgismobile" />
+54-->[:map_launcher] /Users/chatchawarnsealee/Desktop/work/abbon_test/build/map_launcher/intermediates/merged_manifest/debug/AndroidManifest.xml:19:9-57
+54-->[:map_launcher] /Users/chatchawarnsealee/Desktop/work/abbon_test/build/map_launcher/intermediates/merged_manifest/debug/AndroidManifest.xml:19:18-54
+55        <package android:name="com.tencent.map" />
+55-->[:map_launcher] /Users/chatchawarnsealee/Desktop/work/abbon_test/build/map_launcher/intermediates/merged_manifest/debug/AndroidManifest.xml:20:9-51
+55-->[:map_launcher] /Users/chatchawarnsealee/Desktop/work/abbon_test/build/map_launcher/intermediates/merged_manifest/debug/AndroidManifest.xml:20:18-48
+56        <package android:name="com.here.app.maps" />
+56-->[:map_launcher] /Users/chatchawarnsealee/Desktop/work/abbon_test/build/map_launcher/intermediates/merged_manifest/debug/AndroidManifest.xml:21:9-53
+56-->[:map_launcher] /Users/chatchawarnsealee/Desktop/work/abbon_test/build/map_launcher/intermediates/merged_manifest/debug/AndroidManifest.xml:21:18-50
+57        <package android:name="com.huawei.maps.app" />
+57-->[:map_launcher] /Users/chatchawarnsealee/Desktop/work/abbon_test/build/map_launcher/intermediates/merged_manifest/debug/AndroidManifest.xml:22:9-55
+57-->[:map_launcher] /Users/chatchawarnsealee/Desktop/work/abbon_test/build/map_launcher/intermediates/merged_manifest/debug/AndroidManifest.xml:22:18-52
+58        <package android:name="com.alk.copilot.mapviewer" />
+58-->[:map_launcher] /Users/chatchawarnsealee/Desktop/work/abbon_test/build/map_launcher/intermediates/merged_manifest/debug/AndroidManifest.xml:23:9-61
+58-->[:map_launcher] /Users/chatchawarnsealee/Desktop/work/abbon_test/build/map_launcher/intermediates/merged_manifest/debug/AndroidManifest.xml:23:18-58
+59        <package android:name="com.tomtom.gplay.navapp" />
+59-->[:map_launcher] /Users/chatchawarnsealee/Desktop/work/abbon_test/build/map_launcher/intermediates/merged_manifest/debug/AndroidManifest.xml:24:9-59
+59-->[:map_launcher] /Users/chatchawarnsealee/Desktop/work/abbon_test/build/map_launcher/intermediates/merged_manifest/debug/AndroidManifest.xml:24:18-56
+60        <package android:name="com.tomtom.gplay.navapp.gofleet" />
+60-->[:map_launcher] /Users/chatchawarnsealee/Desktop/work/abbon_test/build/map_launcher/intermediates/merged_manifest/debug/AndroidManifest.xml:25:9-67
+60-->[:map_launcher] /Users/chatchawarnsealee/Desktop/work/abbon_test/build/map_launcher/intermediates/merged_manifest/debug/AndroidManifest.xml:25:18-64
+61        <package android:name="com.sygic.truck" />
+61-->[:map_launcher] /Users/chatchawarnsealee/Desktop/work/abbon_test/build/map_launcher/intermediates/merged_manifest/debug/AndroidManifest.xml:26:9-51
+61-->[:map_launcher] /Users/chatchawarnsealee/Desktop/work/abbon_test/build/map_launcher/intermediates/merged_manifest/debug/AndroidManifest.xml:26:18-48
+62        <package android:name="nl.flitsmeister" />
+62-->[:map_launcher] /Users/chatchawarnsealee/Desktop/work/abbon_test/build/map_launcher/intermediates/merged_manifest/debug/AndroidManifest.xml:27:9-51
+62-->[:map_launcher] /Users/chatchawarnsealee/Desktop/work/abbon_test/build/map_launcher/intermediates/merged_manifest/debug/AndroidManifest.xml:27:18-48
+63        <package android:name="nl.flitsmeister.flux" />
+63-->[:map_launcher] /Users/chatchawarnsealee/Desktop/work/abbon_test/build/map_launcher/intermediates/merged_manifest/debug/AndroidManifest.xml:28:9-56
+63-->[:map_launcher] /Users/chatchawarnsealee/Desktop/work/abbon_test/build/map_launcher/intermediates/merged_manifest/debug/AndroidManifest.xml:28:18-53
+64        <package android:name="com.nhn.android.nmap" />
+64-->[:map_launcher] /Users/chatchawarnsealee/Desktop/work/abbon_test/build/map_launcher/intermediates/merged_manifest/debug/AndroidManifest.xml:29:9-56
+64-->[:map_launcher] /Users/chatchawarnsealee/Desktop/work/abbon_test/build/map_launcher/intermediates/merged_manifest/debug/AndroidManifest.xml:29:18-53
+65        <package android:name="net.daum.android.map" />
+65-->[:map_launcher] /Users/chatchawarnsealee/Desktop/work/abbon_test/build/map_launcher/intermediates/merged_manifest/debug/AndroidManifest.xml:30:9-56
+65-->[:map_launcher] /Users/chatchawarnsealee/Desktop/work/abbon_test/build/map_launcher/intermediates/merged_manifest/debug/AndroidManifest.xml:30:18-53
+66        <package android:name="com.skt.tmap.ku" />
+66-->[:map_launcher] /Users/chatchawarnsealee/Desktop/work/abbon_test/build/map_launcher/intermediates/merged_manifest/debug/AndroidManifest.xml:31:9-51
+66-->[:map_launcher] /Users/chatchawarnsealee/Desktop/work/abbon_test/build/map_launcher/intermediates/merged_manifest/debug/AndroidManifest.xml:31:18-48
+67        <package android:name="cz.seznam.mapy" />
+67-->[:map_launcher] /Users/chatchawarnsealee/Desktop/work/abbon_test/build/map_launcher/intermediates/merged_manifest/debug/AndroidManifest.xml:32:9-50
+67-->[:map_launcher] /Users/chatchawarnsealee/Desktop/work/abbon_test/build/map_launcher/intermediates/merged_manifest/debug/AndroidManifest.xml:32:18-47
+68        <package android:name="com.mmi.maps" />
+68-->[:map_launcher] /Users/chatchawarnsealee/Desktop/work/abbon_test/build/map_launcher/intermediates/merged_manifest/debug/AndroidManifest.xml:33:9-48
+68-->[:map_launcher] /Users/chatchawarnsealee/Desktop/work/abbon_test/build/map_launcher/intermediates/merged_manifest/debug/AndroidManifest.xml:33:18-45
+69    </queries>
+70
+71    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+71-->/Users/chatchawarnsealee/Desktop/work/abbon_test/android/app/src/main/AndroidManifest.xml:59:5-60:65
+71-->/Users/chatchawarnsealee/Desktop/work/abbon_test/android/app/src/main/AndroidManifest.xml:60:9-63
+72    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+72-->/Users/chatchawarnsealee/Desktop/work/abbon_test/android/app/src/main/AndroidManifest.xml:61:5-62:67
+72-->/Users/chatchawarnsealee/Desktop/work/abbon_test/android/app/src/main/AndroidManifest.xml:62:9-65
+73    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+73-->/Users/chatchawarnsealee/Desktop/work/abbon_test/android/app/src/main/AndroidManifest.xml:63:5-64:65
+73-->/Users/chatchawarnsealee/Desktop/work/abbon_test/android/app/src/main/AndroidManifest.xml:64:9-63
+74    <uses-permission android:name="android.permission.POST_NOTIFICATIONS" />
+74-->/Users/chatchawarnsealee/Desktop/work/abbon_test/android/app/src/main/AndroidManifest.xml:65:5-76
+74-->/Users/chatchawarnsealee/Desktop/work/abbon_test/android/app/src/main/AndroidManifest.xml:65:22-74
+75    <uses-permission android:name="android.permission.ACCESS_NOTIFICATION_POLICY" />
+75-->/Users/chatchawarnsealee/Desktop/work/abbon_test/android/app/src/main/AndroidManifest.xml:66:5-84
+75-->/Users/chatchawarnsealee/Desktop/work/abbon_test/android/app/src/main/AndroidManifest.xml:66:22-82
+76
+77    <permission
+77-->[androidx.core:core:1.13.1] /Users/chatchawarnsealee/.gradle/caches/transforms-3/889ae3adf7a24645889ee22f4dad2cac/transformed/core-1.13.1/AndroidManifest.xml:22:5-24:47
+78        android:name="com.example.abbon_test_mobile.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+78-->[androidx.core:core:1.13.1] /Users/chatchawarnsealee/.gradle/caches/transforms-3/889ae3adf7a24645889ee22f4dad2cac/transformed/core-1.13.1/AndroidManifest.xml:23:9-81
+79        android:protectionLevel="signature" />
+79-->[androidx.core:core:1.13.1] /Users/chatchawarnsealee/.gradle/caches/transforms-3/889ae3adf7a24645889ee22f4dad2cac/transformed/core-1.13.1/AndroidManifest.xml:24:9-44
+80
+81    <uses-permission android:name="com.example.abbon_test_mobile.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
+81-->[androidx.core:core:1.13.1] /Users/chatchawarnsealee/.gradle/caches/transforms-3/889ae3adf7a24645889ee22f4dad2cac/transformed/core-1.13.1/AndroidManifest.xml:26:5-97
+81-->[androidx.core:core:1.13.1] /Users/chatchawarnsealee/.gradle/caches/transforms-3/889ae3adf7a24645889ee22f4dad2cac/transformed/core-1.13.1/AndroidManifest.xml:26:22-94
+82
+83    <application
+84        android:name="android.app.Application"
+85        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+85-->[androidx.core:core:1.13.1] /Users/chatchawarnsealee/.gradle/caches/transforms-3/889ae3adf7a24645889ee22f4dad2cac/transformed/core-1.13.1/AndroidManifest.xml:28:18-86
+86        android:debuggable="true"
+87        android:extractNativeLibs="true"
+88        android:icon="@mipmap/ic_launcher"
+89        android:label="abbon_test_mobile"
+90        android:requestLegacyExternalStorage="true" >
+91        <activity
+92            android:name="com.example.abbon_test_mobile.MainActivity"
+93            android:configChanges="orientation|keyboardHidden|keyboard|screenSize|smallestScreenSize|locale|layoutDirection|fontScale|screenLayout|density|uiMode"
+94            android:exported="true"
+95            android:hardwareAccelerated="true"
+96            android:launchMode="singleTop"
+97            android:taskAffinity=""
+98            android:theme="@style/LaunchTheme"
+99            android:windowSoftInputMode="adjustResize" >
+100
+101            <!--
+102                 Specifies an Android theme to apply to this Activity as soon as
+103                 the Android process has started. This theme is visible to the user
+104                 while the Flutter UI initializes. After that, this theme continues
+105                 to determine the Window background behind the Flutter UI.
+106            -->
+107            <meta-data
+108                android:name="io.flutter.embedding.android.NormalTheme"
+109                android:resource="@style/NormalTheme" />
+110
+111            <intent-filter>
+112                <action android:name="android.intent.action.MAIN" />
+113
+114                <category android:name="android.intent.category.LAUNCHER" />
+115            </intent-filter>
+116        </activity>
+117        <!--
+118             Don't delete the meta-data below.
+119             This is used by the Flutter tool to generate GeneratedPluginRegistrant.java
+120        -->
+121        <meta-data
+122            android:name="flutterEmbedding"
+123            android:value="2" />
+124
+125        <provider
+125-->[:image_picker_android] /Users/chatchawarnsealee/Desktop/work/abbon_test/build/image_picker_android/intermediates/merged_manifest/debug/AndroidManifest.xml:9:9-17:20
+126            android:name="io.flutter.plugins.imagepicker.ImagePickerFileProvider"
+126-->[:image_picker_android] /Users/chatchawarnsealee/Desktop/work/abbon_test/build/image_picker_android/intermediates/merged_manifest/debug/AndroidManifest.xml:10:13-82
+127            android:authorities="com.example.abbon_test_mobile.flutter.image_provider"
+127-->[:image_picker_android] /Users/chatchawarnsealee/Desktop/work/abbon_test/build/image_picker_android/intermediates/merged_manifest/debug/AndroidManifest.xml:11:13-74
+128            android:exported="false"
+128-->[:image_picker_android] /Users/chatchawarnsealee/Desktop/work/abbon_test/build/image_picker_android/intermediates/merged_manifest/debug/AndroidManifest.xml:12:13-37
+129            android:grantUriPermissions="true" >
+129-->[:image_picker_android] /Users/chatchawarnsealee/Desktop/work/abbon_test/build/image_picker_android/intermediates/merged_manifest/debug/AndroidManifest.xml:13:13-47
+130            <meta-data
+130-->[:image_picker_android] /Users/chatchawarnsealee/Desktop/work/abbon_test/build/image_picker_android/intermediates/merged_manifest/debug/AndroidManifest.xml:14:13-16:75
+131                android:name="android.support.FILE_PROVIDER_PATHS"
+131-->[:image_picker_android] /Users/chatchawarnsealee/Desktop/work/abbon_test/build/image_picker_android/intermediates/merged_manifest/debug/AndroidManifest.xml:15:17-67
+132                android:resource="@xml/flutter_image_picker_file_paths" />
+132-->[:image_picker_android] /Users/chatchawarnsealee/Desktop/work/abbon_test/build/image_picker_android/intermediates/merged_manifest/debug/AndroidManifest.xml:16:17-72
+133        </provider> <!-- Trigger Google Play services to install the backported photo picker module. -->
+134        <service
+134-->[:image_picker_android] /Users/chatchawarnsealee/Desktop/work/abbon_test/build/image_picker_android/intermediates/merged_manifest/debug/AndroidManifest.xml:19:9-31:19
+135            android:name="com.google.android.gms.metadata.ModuleDependencies"
+135-->[:image_picker_android] /Users/chatchawarnsealee/Desktop/work/abbon_test/build/image_picker_android/intermediates/merged_manifest/debug/AndroidManifest.xml:20:13-78
+136            android:enabled="false"
+136-->[:image_picker_android] /Users/chatchawarnsealee/Desktop/work/abbon_test/build/image_picker_android/intermediates/merged_manifest/debug/AndroidManifest.xml:21:13-36
+137            android:exported="false" >
+137-->[:image_picker_android] /Users/chatchawarnsealee/Desktop/work/abbon_test/build/image_picker_android/intermediates/merged_manifest/debug/AndroidManifest.xml:22:13-37
+138            <intent-filter>
+138-->[:image_picker_android] /Users/chatchawarnsealee/Desktop/work/abbon_test/build/image_picker_android/intermediates/merged_manifest/debug/AndroidManifest.xml:24:13-26:29
+139                <action android:name="com.google.android.gms.metadata.MODULE_DEPENDENCIES" />
+139-->[:image_picker_android] /Users/chatchawarnsealee/Desktop/work/abbon_test/build/image_picker_android/intermediates/merged_manifest/debug/AndroidManifest.xml:25:17-94
+139-->[:image_picker_android] /Users/chatchawarnsealee/Desktop/work/abbon_test/build/image_picker_android/intermediates/merged_manifest/debug/AndroidManifest.xml:25:25-91
+140            </intent-filter>
+141
+142            <meta-data
+142-->[:image_picker_android] /Users/chatchawarnsealee/Desktop/work/abbon_test/build/image_picker_android/intermediates/merged_manifest/debug/AndroidManifest.xml:28:13-30:36
+143                android:name="photopicker_activity:0:required"
+143-->[:image_picker_android] /Users/chatchawarnsealee/Desktop/work/abbon_test/build/image_picker_android/intermediates/merged_manifest/debug/AndroidManifest.xml:29:17-63
+144                android:value="" />
+144-->[:image_picker_android] /Users/chatchawarnsealee/Desktop/work/abbon_test/build/image_picker_android/intermediates/merged_manifest/debug/AndroidManifest.xml:30:17-33
+145        </service>
+146        <service
+146-->[:geolocator_android] /Users/chatchawarnsealee/Desktop/work/abbon_test/build/geolocator_android/intermediates/merged_manifest/debug/AndroidManifest.xml:8:9-12:56
+147            android:name="com.baseflow.geolocator.GeolocatorLocationService"
+147-->[:geolocator_android] /Users/chatchawarnsealee/Desktop/work/abbon_test/build/geolocator_android/intermediates/merged_manifest/debug/AndroidManifest.xml:9:13-77
+148            android:enabled="true"
+148-->[:geolocator_android] /Users/chatchawarnsealee/Desktop/work/abbon_test/build/geolocator_android/intermediates/merged_manifest/debug/AndroidManifest.xml:10:13-35
+149            android:exported="false"
+149-->[:geolocator_android] /Users/chatchawarnsealee/Desktop/work/abbon_test/build/geolocator_android/intermediates/merged_manifest/debug/AndroidManifest.xml:11:13-37
+150            android:foregroundServiceType="location" />
+150-->[:geolocator_android] /Users/chatchawarnsealee/Desktop/work/abbon_test/build/geolocator_android/intermediates/merged_manifest/debug/AndroidManifest.xml:12:13-53
+151
+152        <activity
+152-->[:url_launcher_android] /Users/chatchawarnsealee/Desktop/work/abbon_test/build/url_launcher_android/intermediates/merged_manifest/debug/AndroidManifest.xml:8:9-11:74
+153            android:name="io.flutter.plugins.urllauncher.WebViewActivity"
+153-->[:url_launcher_android] /Users/chatchawarnsealee/Desktop/work/abbon_test/build/url_launcher_android/intermediates/merged_manifest/debug/AndroidManifest.xml:9:13-74
+154            android:exported="false"
+154-->[:url_launcher_android] /Users/chatchawarnsealee/Desktop/work/abbon_test/build/url_launcher_android/intermediates/merged_manifest/debug/AndroidManifest.xml:10:13-37
+155            android:theme="@android:style/Theme.NoTitleBar.Fullscreen" />
+155-->[:url_launcher_android] /Users/chatchawarnsealee/Desktop/work/abbon_test/build/url_launcher_android/intermediates/merged_manifest/debug/AndroidManifest.xml:11:13-71
+156        <activity
+156-->[com.google.android.gms:play-services-base:18.3.0] /Users/chatchawarnsealee/.gradle/caches/transforms-3/4a0baae68aec8ddf35756692373b5e91/transformed/jetified-play-services-base-18.3.0/AndroidManifest.xml:20:9-22:45
+157            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+157-->[com.google.android.gms:play-services-base:18.3.0] /Users/chatchawarnsealee/.gradle/caches/transforms-3/4a0baae68aec8ddf35756692373b5e91/transformed/jetified-play-services-base-18.3.0/AndroidManifest.xml:20:19-85
+158            android:exported="false"
+158-->[com.google.android.gms:play-services-base:18.3.0] /Users/chatchawarnsealee/.gradle/caches/transforms-3/4a0baae68aec8ddf35756692373b5e91/transformed/jetified-play-services-base-18.3.0/AndroidManifest.xml:22:19-43
+159            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+159-->[com.google.android.gms:play-services-base:18.3.0] /Users/chatchawarnsealee/.gradle/caches/transforms-3/4a0baae68aec8ddf35756692373b5e91/transformed/jetified-play-services-base-18.3.0/AndroidManifest.xml:21:19-78
+160
+161        <meta-data
+161-->[com.google.android.gms:play-services-basement:18.3.0] /Users/chatchawarnsealee/.gradle/caches/transforms-3/aa568bf11239b6a9b2866fb2d7c8f9fe/transformed/jetified-play-services-basement-18.3.0/AndroidManifest.xml:21:9-23:69
+162            android:name="com.google.android.gms.version"
+162-->[com.google.android.gms:play-services-basement:18.3.0] /Users/chatchawarnsealee/.gradle/caches/transforms-3/aa568bf11239b6a9b2866fb2d7c8f9fe/transformed/jetified-play-services-basement-18.3.0/AndroidManifest.xml:22:13-58
+163            android:value="@integer/google_play_services_version" />
+163-->[com.google.android.gms:play-services-basement:18.3.0] /Users/chatchawarnsealee/.gradle/caches/transforms-3/aa568bf11239b6a9b2866fb2d7c8f9fe/transformed/jetified-play-services-basement-18.3.0/AndroidManifest.xml:23:13-66
+164
+165        <uses-library
+165-->[androidx.window:window:1.2.0] /Users/chatchawarnsealee/.gradle/caches/transforms-3/8859fd2468ade3ef2655d1f63d6737f2/transformed/jetified-window-1.2.0/AndroidManifest.xml:23:9-25:40
+166            android:name="androidx.window.extensions"
+166-->[androidx.window:window:1.2.0] /Users/chatchawarnsealee/.gradle/caches/transforms-3/8859fd2468ade3ef2655d1f63d6737f2/transformed/jetified-window-1.2.0/AndroidManifest.xml:24:13-54
+167            android:required="false" />
+167-->[androidx.window:window:1.2.0] /Users/chatchawarnsealee/.gradle/caches/transforms-3/8859fd2468ade3ef2655d1f63d6737f2/transformed/jetified-window-1.2.0/AndroidManifest.xml:25:13-37
+168        <uses-library
+168-->[androidx.window:window:1.2.0] /Users/chatchawarnsealee/.gradle/caches/transforms-3/8859fd2468ade3ef2655d1f63d6737f2/transformed/jetified-window-1.2.0/AndroidManifest.xml:26:9-28:40
+169            android:name="androidx.window.sidecar"
+169-->[androidx.window:window:1.2.0] /Users/chatchawarnsealee/.gradle/caches/transforms-3/8859fd2468ade3ef2655d1f63d6737f2/transformed/jetified-window-1.2.0/AndroidManifest.xml:27:13-51
+170            android:required="false" />
+170-->[androidx.window:window:1.2.0] /Users/chatchawarnsealee/.gradle/caches/transforms-3/8859fd2468ade3ef2655d1f63d6737f2/transformed/jetified-window-1.2.0/AndroidManifest.xml:28:13-37
+171
+172        <provider
+172-->[androidx.lifecycle:lifecycle-process:2.7.0] /Users/chatchawarnsealee/.gradle/caches/transforms-3/40a1bd5ff2ce65cd1fad055cc690d356/transformed/jetified-lifecycle-process-2.7.0/AndroidManifest.xml:24:9-32:20
+173            android:name="androidx.startup.InitializationProvider"
+173-->[androidx.lifecycle:lifecycle-process:2.7.0] /Users/chatchawarnsealee/.gradle/caches/transforms-3/40a1bd5ff2ce65cd1fad055cc690d356/transformed/jetified-lifecycle-process-2.7.0/AndroidManifest.xml:25:13-67
+174            android:authorities="com.example.abbon_test_mobile.androidx-startup"
+174-->[androidx.lifecycle:lifecycle-process:2.7.0] /Users/chatchawarnsealee/.gradle/caches/transforms-3/40a1bd5ff2ce65cd1fad055cc690d356/transformed/jetified-lifecycle-process-2.7.0/AndroidManifest.xml:26:13-68
+175            android:exported="false" >
+175-->[androidx.lifecycle:lifecycle-process:2.7.0] /Users/chatchawarnsealee/.gradle/caches/transforms-3/40a1bd5ff2ce65cd1fad055cc690d356/transformed/jetified-lifecycle-process-2.7.0/AndroidManifest.xml:27:13-37
+176            <meta-data
+176-->[androidx.lifecycle:lifecycle-process:2.7.0] /Users/chatchawarnsealee/.gradle/caches/transforms-3/40a1bd5ff2ce65cd1fad055cc690d356/transformed/jetified-lifecycle-process-2.7.0/AndroidManifest.xml:29:13-31:52
+177                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+177-->[androidx.lifecycle:lifecycle-process:2.7.0] /Users/chatchawarnsealee/.gradle/caches/transforms-3/40a1bd5ff2ce65cd1fad055cc690d356/transformed/jetified-lifecycle-process-2.7.0/AndroidManifest.xml:30:17-78
+178                android:value="androidx.startup" />
+178-->[androidx.lifecycle:lifecycle-process:2.7.0] /Users/chatchawarnsealee/.gradle/caches/transforms-3/40a1bd5ff2ce65cd1fad055cc690d356/transformed/jetified-lifecycle-process-2.7.0/AndroidManifest.xml:31:17-49
+179            <meta-data
+179-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/chatchawarnsealee/.gradle/caches/transforms-3/408a642162969e960684d9c16b2f116a/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:29:13-31:52
+180                android:name="androidx.profileinstaller.ProfileInstallerInitializer"
+180-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/chatchawarnsealee/.gradle/caches/transforms-3/408a642162969e960684d9c16b2f116a/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:30:17-85
+181                android:value="androidx.startup" />
+181-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/chatchawarnsealee/.gradle/caches/transforms-3/408a642162969e960684d9c16b2f116a/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:31:17-49
+182        </provider>
+183
+184        <receiver
+184-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/chatchawarnsealee/.gradle/caches/transforms-3/408a642162969e960684d9c16b2f116a/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:34:9-52:20
+185            android:name="androidx.profileinstaller.ProfileInstallReceiver"
+185-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/chatchawarnsealee/.gradle/caches/transforms-3/408a642162969e960684d9c16b2f116a/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:35:13-76
+186            android:directBootAware="false"
+186-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/chatchawarnsealee/.gradle/caches/transforms-3/408a642162969e960684d9c16b2f116a/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:36:13-44
+187            android:enabled="true"
+187-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/chatchawarnsealee/.gradle/caches/transforms-3/408a642162969e960684d9c16b2f116a/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:37:13-35
+188            android:exported="true"
+188-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/chatchawarnsealee/.gradle/caches/transforms-3/408a642162969e960684d9c16b2f116a/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:38:13-36
+189            android:permission="android.permission.DUMP" >
+189-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/chatchawarnsealee/.gradle/caches/transforms-3/408a642162969e960684d9c16b2f116a/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:39:13-57
+190            <intent-filter>
+190-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/chatchawarnsealee/.gradle/caches/transforms-3/408a642162969e960684d9c16b2f116a/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:40:13-42:29
+191                <action android:name="androidx.profileinstaller.action.INSTALL_PROFILE" />
+191-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/chatchawarnsealee/.gradle/caches/transforms-3/408a642162969e960684d9c16b2f116a/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:41:17-91
+191-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/chatchawarnsealee/.gradle/caches/transforms-3/408a642162969e960684d9c16b2f116a/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:41:25-88
+192            </intent-filter>
+193            <intent-filter>
+193-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/chatchawarnsealee/.gradle/caches/transforms-3/408a642162969e960684d9c16b2f116a/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:43:13-45:29
+194                <action android:name="androidx.profileinstaller.action.SKIP_FILE" />
+194-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/chatchawarnsealee/.gradle/caches/transforms-3/408a642162969e960684d9c16b2f116a/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:44:17-85
+194-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/chatchawarnsealee/.gradle/caches/transforms-3/408a642162969e960684d9c16b2f116a/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:44:25-82
+195            </intent-filter>
+196            <intent-filter>
+196-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/chatchawarnsealee/.gradle/caches/transforms-3/408a642162969e960684d9c16b2f116a/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:46:13-48:29
+197                <action android:name="androidx.profileinstaller.action.SAVE_PROFILE" />
+197-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/chatchawarnsealee/.gradle/caches/transforms-3/408a642162969e960684d9c16b2f116a/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:47:17-88
+197-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/chatchawarnsealee/.gradle/caches/transforms-3/408a642162969e960684d9c16b2f116a/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:47:25-85
+198            </intent-filter>
+199            <intent-filter>
+199-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/chatchawarnsealee/.gradle/caches/transforms-3/408a642162969e960684d9c16b2f116a/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:49:13-51:29
+200                <action android:name="androidx.profileinstaller.action.BENCHMARK_OPERATION" />
+200-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/chatchawarnsealee/.gradle/caches/transforms-3/408a642162969e960684d9c16b2f116a/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:50:17-95
+200-->[androidx.profileinstaller:profileinstaller:1.3.1] /Users/chatchawarnsealee/.gradle/caches/transforms-3/408a642162969e960684d9c16b2f116a/transformed/jetified-profileinstaller-1.3.1/AndroidManifest.xml:50:25-92
+201            </intent-filter>
+202        </receiver>
+203    </application>
+204
+205</manifest>
