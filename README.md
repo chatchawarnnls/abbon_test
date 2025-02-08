@@ -1,6 +1,6 @@
 # abbon_test_mobile
 
-# Stucture Project
+# Structure Project
  - models เก็บ Model ของ json ที่ได้จาก api
  - repositories function สำหรับ จัดการข้อมูลที่ได้จาก api แปลงเข้า model
  - screen ไฟล์ screen ui 
