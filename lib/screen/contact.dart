@@ -4,6 +4,7 @@ import 'package:abbon_test_mobile/models/contact_results.dart';
 import 'package:abbon_test_mobile/repositories/contact/contact_repository.dart';
 import 'package:abbon_test_mobile/utilities/config.dart/app_config.dart';
 import 'package:abbon_test_mobile/widgets/alert.dart';
+import 'package:abbon_test_mobile/widgets/button.dart';
 import 'package:abbon_test_mobile/widgets/input_field.dart';
 import 'package:easy_localization/easy_localization.dart';
 import 'package:flutter/material.dart';
@@ -95,7 +96,7 @@ class _ContactScreenState extends State<ContactScreen> {
   addNewContact() {
     try {
       if (firstnameController.text.isEmpty || lastnameController.text.isEmpty || ageController.text.isEmpty) {
-        CoreServiceAlert().show(context: context, message: 'PLEASE_FILL_ALL_FIELD'.tr());
+        CoreServiceAlert().show(context: context, title: 'WARNING'.tr(), message: 'PLEASE_FILL_ALL_FIELDS'.tr());
         return;
       }
       UsersResultModel item = UsersResultModel(
@@ -181,10 +182,11 @@ class _ContactScreenState extends State<ContactScreen> {
                 keyboardType: TextInputType.number,
               ),
               const SizedBox(height: 16),
-              ElevatedButton(
-                onPressed: addNewContact,
-                child: Text('ADD'.tr()),
-              ),
+              ButtonWidget(
+                width: 150,
+                text: 'ADD'.tr(),
+                onTap: addNewContact,
+              )
             ],
             const SizedBox(height: 16),
             if (itemContactList == null)
