@@ -1,16 +1,10 @@
 # abbon_test_mobile
 
-A new Flutter project.
+# Stucture Project
+ - models เก็บ Model ของ json ที่ได้จาก api
+ - repositories function สำหรับ จัดการข้อมูลที่ได้จาก api แปลงเข้า model
+ - screen ไฟล์ screen ui 
+ - utilities จัดการ Controller ต่างๆของ project เก็บ config ต่างๆ
+ - widgets สร้าง widget ที่นำไปใช้บ่อยๆ
 
-## Getting Started
-
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+###### ปกติจะมีfolder Bloc ด้วยครับแต่เนื่องจากเป็น project test เลยไม่ได้นำ Bloc มาใช้ครับ
